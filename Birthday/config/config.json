@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "aniversariantes-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aniversariantes/AniversariantesWebPart.js",
+          "manifest": "./src/webparts/aniversariantes/AniversariantesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AniversariantesWebPartStrings": "lib/webparts/aniversariantes/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

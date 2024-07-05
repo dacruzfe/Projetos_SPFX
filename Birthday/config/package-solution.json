@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "aniversariantes-web-part-client-side-solution",
+    "id": "435f938f-0f21-4528-9c9b-33f87e2ff490",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "AniversariantesWebPart description"
+      },
+      "longDescription": {
+        "default": "AniversariantesWebPart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "aniversariantes-web-part Feature",
+        "description": "The feature that activates elements of the aniversariantes-web-part solution.",
+        "id": "fe763d43-0605-45a6-8ac0-798e80a5b621",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/aniversariantes-web-part.sppkg"
+  }
+}

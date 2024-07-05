@@ -1,0 +1,62 @@
+.Aniversariantes {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-size: 0.95rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #0078d4; 
+}
+
+.employeeCard {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.photo {
+  width: 40px; 
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.employeeInfo {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.7rem;
+}
+
+.name {
+  font-size: -0.1rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1px;
+}
+
+.name i {
+  margin-left: 5px;
+}
+
+.title {
+  font-size: 0.70rem; 
+  color: gray;
+  margin-bottom: 1px;
+}
+
+.details {
+  font-size: 0.70rem; 
+  display: flex;
+  align-items: center;
+}
+
+.details i {
+  margin-left: 1px;
+}
